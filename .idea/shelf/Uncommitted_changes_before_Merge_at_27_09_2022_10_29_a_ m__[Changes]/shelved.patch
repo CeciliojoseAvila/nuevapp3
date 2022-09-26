@@ -1,0 +1,66 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,12 +4,10 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="8d78257a-36da-4d01-9659-df657bde4083" name="Changes" comment="Autenticación por perfiles">
+-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
++    <list default="true" id="fb376e4f-f91c-46d5-b970-0cc0e956fa36" name="Changes" comment="Autenticación por perfiles">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/nuevaappciclo3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nuevappciclo3.iml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/aplication.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/aplication.yml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/aplication.yml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/accessDenied.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/accessDenied.html" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -34,7 +32,7 @@
+     </option>
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="master" />
++        <entry key="$PROJECT_DIR$" value="main" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -51,7 +49,7 @@
+       <map>
+         <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+         <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+-        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
++        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+       </map>
+     </option>
+   </component>
+@@ -73,15 +71,15 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "DefaultHtmlFileTemplate": "HTML File",
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "last_opened_file_path": "C:/Users/GERMAN/OneDrive/Escritorio/nuevapp3"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/Users/GERMAN/OneDrive/Escritorio/nuevapp3&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="$PROJECT_DIR$/src/main/resources/templates" />

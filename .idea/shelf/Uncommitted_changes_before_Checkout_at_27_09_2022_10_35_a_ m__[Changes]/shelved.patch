@@ -1,0 +1,73 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,12 +4,9 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="8d78257a-36da-4d01-9659-df657bde4083" name="Changes" comment="Autenticación por perfiles">
+-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/nuevaappciclo3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nuevappciclo3.iml" afterDir="false" />
++    <list default="true" id="55b1c1e8-e263-49a7-9628-82e75fd299bd" name="Changes" comment="Autenticación por perfiles">
+       <change beforePath="$PROJECT_DIR$/src/main/resources/aplication.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/aplication.yml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/accessDenied.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/accessDenied.html" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -51,7 +48,7 @@
+       <map>
+         <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+         <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+-        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
++        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+       </map>
+     </option>
+   </component>
+@@ -73,15 +70,15 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "DefaultHtmlFileTemplate": "HTML File",
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "last_opened_file_path": "C:/Users/GERMAN/OneDrive/Escritorio/nuevapp3"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/Users/GERMAN/OneDrive/Escritorio/nuevapp3&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+Index: src/main/resources/templates/accessDenied.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/templates/accessDenied.html b/src/main/resources/templates/accessDenied.html
+--- a/src/main/resources/templates/accessDenied.html	
++++ b/src/main/resources/templates/accessDenied.html	
+@@ -21,7 +21,7 @@
+         <h1>No tienes acceso a esta zona</h1>
+ 
+         <h2>Prohibido ingresar</h2>
+-
++        <a href="javascript: history.go(-1)" class="btn btn-success" role="button">Volver</a>
+     </div>
+ 
+ </main>

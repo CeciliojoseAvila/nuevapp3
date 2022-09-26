@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 
 @SpringBootApplication
-public class Ciclo3Application {
+public class nuevapp3Application {
 
 	@GetMapping("/hello")
 	public String hello(){
@@ -22,7 +22,7 @@ public class Ciclo3Application {
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.run(Ciclo3Application.class, args);
+		SpringApplication.run(nuevapp3Application.class, args);
 	}
 
 }
