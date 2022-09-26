@@ -11,7 +11,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Ciclo3Udea2022" target="1.5" />
-      <module name="nuevaappciclo3" target="17" />
+      <module name="nuevaappciclo3" target="18" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
