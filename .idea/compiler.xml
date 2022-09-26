@@ -6,17 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="nuevaappciclo3" />
+        <module name="nuevappciclo3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Ciclo3Udea2022" target="1.5" />
-      <module name="nuevaappciclo3" target="18" />
+      <module name="nuevappciclo3" target="18" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="nuevaappciclo3" options="-parameters" />
+      <module name="nuevappciclo3" options="-parameters" />
     </option>
   </component>
 </project>
